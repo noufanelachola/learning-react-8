@@ -35,28 +35,31 @@ function App() {
   return (
     <form className="form" onSubmit={handleSubmit}>
       <input 
-        type="text" 
+        type="email" 
         name="Email" 
         placeholder="Email" 
         onChange={handleChange} 
         value={formData.Email}
-      />
+        required
+        />
 
       
       <input 
-        type="text" 
+        type="password" 
         name="Pass" 
         placeholder="Password" 
         onChange={handleChange} 
         value={formData.Pass}
-      />
+        required
+        />
       <input 
-        type="text" 
+        type="password" 
         name="PassConfirm" 
         placeholder="Confirm Password" 
         onChange={handleChange} 
         value={formData.PassConfirm}
-      />
+        required
+        />
       <div className='newsLetter'>
         <input 
           type="checkbox" 

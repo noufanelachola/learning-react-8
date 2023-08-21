@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/learning-react-8/static/css/main.cb0fe1c4.css",
+    "main.js": "/learning-react-8/static/js/main.158160e0.js",
+    "static/js/787.58d57fc0.chunk.js": "/learning-react-8/static/js/787.58d57fc0.chunk.js",
+    "index.html": "/learning-react-8/index.html",
+    "main.cb0fe1c4.css.map": "/learning-react-8/static/css/main.cb0fe1c4.css.map",
+    "main.158160e0.js.map": "/learning-react-8/static/js/main.158160e0.js.map",
+    "787.58d57fc0.chunk.js.map": "/learning-react-8/static/js/787.58d57fc0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb0fe1c4.css",
+    "static/js/main.158160e0.js"
+  ]
+}

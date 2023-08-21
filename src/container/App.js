@@ -23,7 +23,13 @@ function App() {
 
   function handleSubmit(event){
     event.preventDefault();
-    console.log(formData);
+    const msgSuccess = "You're successfully signedIn";
+    const msgFail = "Oops, looks your password doesn't match";
+    const passConfo = formData.Pass === formData.PassConfirm ? msgSuccess : msgFail ;
+    console.log(passConfo);
+    if (formData.NewsLetter === true && passConfo === msgSuccess){
+      console.log("Thanks you for joining in our NewsLetter");
+    }
   }
 
   return (
